@@ -1,1 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(205, 115, 228);
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
+    align-items: center;
+    /* height: 10vh; */
+    color: rgb(241, 241, 82);
+}
+main{
+    background-color: rgb(226, 137, 167);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
 
+footer{
+    background-color: rgb(241, 241, 82);
+    /* height: 7vh; */
+    align-items: center;
+} 
+
+.botao{
+    grid-column: 3/3; 
+    grid-row: 1/2;
+    
+} 
+
+
+.container{
+    display: grid;
+    grid-template-rows: 50px 1fr 30px;
+}
+
+aside{
+    padding: 10px;
+}
+
+section{
+    padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 15px;
+} 
+
+div{
+    display: grid;
+    height: 100vh;
+}
